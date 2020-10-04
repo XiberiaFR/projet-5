@@ -1,0 +1,9 @@
+@mixin gradientnote {
+    background: linear-gradient(to right, rgba(241,88,97,1) 48%,rgba(247,143,106,1) 52%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@mixin responsivepadding {
+    padding: 0 20px;
+}

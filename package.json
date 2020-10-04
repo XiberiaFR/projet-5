@@ -1,0 +1,21 @@
+{
+  "name": "projet-5",
+  "version": "1.0.0",
+  "description": "Orinoco - La boutique des ours en peluche ",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css",
+    "prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/css/prefixed/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XiberiaFR/projet-5"
+  },
+  "author": "xiberia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gerkx/maintainable-css-with-sass/issues"
+  },
+  "homepage": "https://github.com/gerkx/maintainable-css-with-sass#readme",
+  "browserslist": "last 4 versions"
+}

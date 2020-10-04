@@ -1,0 +1,14 @@
+:root {
+    font-family: Tahoma;
+    @media (max-width:860px) {
+    font-size: 6px;
+    }
+}
+
+body {
+    font-family: tahoma;
+    color: $colour-primary;
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.7;
+}
