@@ -176,7 +176,7 @@ body {
 }
 .homepage .product__photo:hover img {
   opacity: 0.5;
-  scale: 1.1;
+  transform: scale(1.1);
 }
 .homepage .product__photo:hover .product__cta {
   opacity: 1;

@@ -44,7 +44,7 @@
             &:hover {
                 img {
                 opacity: 0.5;
-                scale : 1.1;
+                transform: scale(1.1);
                 }
                 .product__cta {
                 opacity: 1;
