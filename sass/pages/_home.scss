@@ -24,8 +24,12 @@ main {
     .container {
         position: relative;
         width: 100%;
+        border: 3px solid wheat;
+        border-radius: 10px;
+        overflow: hidden;
         &:hover img {
-            opacity: 0.5;;
+            opacity: 0.5;
+            scale: 1.1;
         }
       }
       
@@ -46,10 +50,24 @@ main {
       }
       
       .text {
-        background-color: #4CAF50;
-        color: white;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+        color: purple;
         font-size: 16px;
-        padding: 16px 32px;
+        font-weight: 100;
+        padding: 10px;
+        background-color: #F5DEB3;
+        text-decoration: none;
+        cursor: pointer;
+        text-align: center;
+        text-transform: uppercase;
+        transition-duration: 0.8s;
+        border:none;
+        &:hover {
+            color:#F5DEB3;
+            background-color: purple;
+        }
       }
 }
 /*
