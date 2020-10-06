@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Orinoco - Mariano, un ours 100% coton</title>
+</head>
+
+<body>
+    
+    <header class="header">
+        
+        <nav class="navigation">
+            <a href="./index.html"> <img src="./img/logo-orinoco.png" alt="logo Orinoco" class="navigation__logo"> </a>
+            <a href="./panier.html"><i class="navigation__icon fas fa-shopping-basket"></i></a>
+        </nav>
+        
+        <section class="headersection">
+            <h1 class="headersection__title">Mariano, l'ours des Pyrénées</h1>
+            <a href="#main" class="headersection__button">Je le personnalise</a>
+        </section>
+
+    </header>
+
+    <main class="productpage" id="main">
+        
+        <section class="productpage__photo">
+            <img src="./img/oak_1.jpg" alt="Ours en peluche en coton">
+        </section>
+
+        <section class="productpage__details">
+            <h2 class="productpage__subtitle">Mariano, l'ours des Pyrénées<br></h2>
+            
+            <form class="productpage__color">
+                <p>Sélectionnez la couleur</p>
+                <select id="color-list" required>
+                    <option value="Rouge">Rouge</option>
+                    <option value="Bleu">Bleu</option>
+                    <option value="Jaune">Jaune</option>
+                </select>  
+            </form>
+
+            <p class="productpage__price"><span>Prix</span><br>200,00€ TTC</p>
+
+            <p class="productpage__description"><span>Description</span><br>Cet ours en peluche tricoté, tissé et cousu à la main dans une usine artisanale du Pays Basque est idéal pour les balades en forêt.</p>
+
+            <input type="Submit" class="productpage__basketbutton" id="ajout__panier" value="Ajouter au panier">
+        </section>
+
+    </main>
+
+    <footer class="footer"> 
+        <h3 class="footer__h3">Orinoco, la référence des ours en peluche made in France.</h3>
+    </footer>
+    <!-- Script pour chargement de fontawesome-->
+    <script src="https://kit.fontawesome.com/a4bf076c8c.js" crossorigin="anonymous"></script>
+</body>
+</html>
