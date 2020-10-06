@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Orinoco - Panier à valider</title>
+</head>
+
+<body>
+    
+    <header class="header">
+        
+        <nav class="navigation">
+            <a href="./index.html"> <img src="./img/logo-orinoco.png" alt="logo Orinoco" class="navigation__logo"> </a>
+            <a href="./panier.html"><i class="navigation__icon fas fa-shopping-basket"></i></a>
+        </nav>
+        
+        <section class="headersection">
+            <h1 class="headersection__title">Votre ours est-il dans le panier ?</h1>
+            <a href="#main" class="headersection__button">Je vérifie</a>
+        </section>
+
+    </header>
+
+    <main class="basketpage" id="main">
+        
+        <section class="itemsinbasket">
+            <p class="itemsinbasket__title">Le contenu de votre panier</p>
+            <div class="itemsinbasket__details">
+                <img src="./img/oak_1.jpg" alt="Ceci est un ours en peluche">
+                <p class="itemsinbasket__productname">Ours en peluche Monica</p>
+                <p class="itemsinbasket__price">200€</p>
+            </div>
+        </section>
+
+        <section class="basketamount">
+            <p class="basketamount__title">Total du panier et vos informations</p>
+            <div class="basketamount__input">
+                <p class="basketamount__subtitle">Vos informations</p>
+                <input type="text" class="input-text" placeholder="Nom de rue">
+                <input type="number" class="input-text" placeholder="Numéro de rue">
+                <input type="number" class="input-text" placeholder="Code postal">
+                <input type="text" class="input-text" placeholder="Ville">
+            </div>
+            
+        </section>
+
+        <section class="basketpage">
+        </section>
+
+    </main>
+
+    <footer class="footer"> 
+        <h3 class="footer__h3">Orinoco, la référence des ours en peluche made in France.</h3>
+    </footer>
+    <!-- Script pour chargement de fontawesome-->
+    <script src="https://kit.fontawesome.com/a4bf076c8c.js" crossorigin="anonymous"></script>
+</body>
+</html>

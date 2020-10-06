@@ -1,0 +1,12 @@
+.basketpage {
+    display: flex;
+    justify-content: space-evenly;
+    
+    .itemsinbasket {
+        width: 70%;
+    }
+
+    .basketamount {
+        width: 20%;
+    }
+}

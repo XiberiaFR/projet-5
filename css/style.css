@@ -255,4 +255,15 @@ body {
   text-decoration: underline;
 }
 
+.basketpage {
+  display: flex;
+  justify-content: space-evenly;
+}
+.basketpage .itemsinbasket {
+  width: 70%;
+}
+.basketpage .basketamount {
+  width: 20%;
+}
+
 /*# sourceMappingURL=style.css.map */
