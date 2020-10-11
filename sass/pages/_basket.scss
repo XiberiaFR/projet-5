@@ -1,12 +1,64 @@
 .basketpage {
     display: flex;
     justify-content: space-evenly;
+    margin-top: 100px;
+    
+    &__title {
+        text-transform: uppercase;
+    }
     
     .itemsinbasket {
+        display: flex;
+        flex-direction: column;
         width: 70%;
+        justify-content: center;
+        &__details {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: purple 2px solid;
+            img {
+                width: 15%;
+            }
+            &__productname {
+                width: 50%;
+            }
+            &__price {
+                width: 15%;
+            }
+        }
     }
 
     .basketamount {
         width: 20%;
+        border-left: purple 2px solid;
+        padding-left: 20px;
+        &__userinformations {
+            margin-bottom: 30px;
+        }
+        &__total {
+            text-align: center;
+        }
+        &__totalsubmit {
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            border-radius: 20px;
+            color: purple;
+            font-size: 14px;
+            font-weight: 100;
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #F5DEB3;
+            text-decoration: none;
+            cursor: pointer;
+            text-align: center;
+            text-transform: uppercase;
+            transition-duration: 0.8s;
+            border:none;
+            &:hover {
+                color:#F5DEB3;
+                background-color: purple;
+            }
+        }
     }
 }

@@ -27,24 +27,49 @@
     <main class="basketpage" id="main">
         
         <section class="itemsinbasket">
-            <p class="itemsinbasket__title">Le contenu de votre panier</p>
+            <p class="itemsinbasket__title basketpage__title">Le contenu de votre panier</p>
             <div class="itemsinbasket__details">
                 <img src="./img/oak_1.jpg" alt="Ceci est un ours en peluche">
                 <p class="itemsinbasket__productname">Ours en peluche Monica</p>
+                <div class="itemsinbasket__quantity">Quantité : 1</div>
+                <p class="itemsinbasket__price">200€</p>
+            </div>
+            
+            <div class="itemsinbasket__details">
+                <img src="./img/oak_1.jpg" alt="Ceci est un ours en peluche">
+                <p class="itemsinbasket__productname">Ours en peluche Monica</p>
+                <div class="itemsinbasket__quantity">Quantité : 1</div>
+                <p class="itemsinbasket__price">200€</p>
+            </div>
+
+            <div class="itemsinbasket__details">
+                <img src="./img/oak_1.jpg" alt="Ceci est un ours en peluche">
+                <p class="itemsinbasket__productname">Ours en peluche Monica</p>
+                <div class="itemsinbasket__quantity">Quantité : 1</div>
                 <p class="itemsinbasket__price">200€</p>
             </div>
         </section>
 
         <section class="basketamount">
-            <p class="basketamount__title">Total du panier et vos informations</p>
-            <div class="basketamount__input">
-                <p class="basketamount__subtitle">Vos informations</p>
+            <div class="basketamount__userinformations">
+                <p class="basketamount__userinformationstitle basketpage__title">Vos informations</p>
                 <input type="text" class="input-text" placeholder="Nom de rue">
                 <input type="number" class="input-text" placeholder="Numéro de rue">
                 <input type="number" class="input-text" placeholder="Code postal">
                 <input type="text" class="input-text" placeholder="Ville">
+                <br><br/>
+                <input type="text" class="input-text" placeholder="Votre nom">
+                <input type="text" class="input-text" placeholder="Votre prénom">
+                <input type="text" class="input-text" placeholder="Numéro de téléphone">
+                <input type="text" class="input-text" placeholder="Adresse mail">
             </div>
-            
+            <div class="basketamount__total">
+                <p class="basketamount__totaltitle basketpage__title">Montant du panier</p>
+                <p class="basketamount__totalprice">Total de votre commande : 200,00€</p>
+                <input type="submit" class="basketamount__totalsubmit" value="Je valide la commande" class="basketamount__totalsubmil">
+
+            </div>
+
         </section>
 
         <section class="basketpage">

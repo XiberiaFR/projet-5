@@ -27,11 +27,6 @@ body {
 :root {
   font-family: Tahoma;
 }
-@media (max-width: 860px) {
-  :root {
-    font-size: 6px;
-  }
-}
 
 body {
   font-family: tahoma;
@@ -258,12 +253,63 @@ body {
 .basketpage {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 100px;
+}
+.basketpage__title {
+  text-transform: uppercase;
 }
 .basketpage .itemsinbasket {
+  display: flex;
+  flex-direction: column;
   width: 70%;
+  justify-content: center;
+}
+.basketpage .itemsinbasket__details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: purple 2px solid;
+}
+.basketpage .itemsinbasket__details img {
+  width: 15%;
+}
+.basketpage .itemsinbasket__details__productname {
+  width: 50%;
+}
+.basketpage .itemsinbasket__details__price {
+  width: 15%;
 }
 .basketpage .basketamount {
   width: 20%;
+  border-left: purple 2px solid;
+  padding-left: 20px;
+}
+.basketpage .basketamount__userinformations {
+  margin-bottom: 30px;
+}
+.basketpage .basketamount__total {
+  text-align: center;
+}
+.basketpage .basketamount__totalsubmit {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: purple;
+  font-size: 14px;
+  font-weight: 100;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #F5DEB3;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  transition-duration: 0.8s;
+  border: none;
+}
+.basketpage .basketamount__totalsubmit:hover {
+  color: #F5DEB3;
+  background-color: purple;
 }
 
 /*# sourceMappingURL=style.css.map */
