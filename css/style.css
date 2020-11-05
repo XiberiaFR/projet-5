@@ -134,6 +134,12 @@ body {
   justify-content: space-around;
   margin-top: 100px;
 }
+@media (max-width: 1024px) {
+  .homepage {
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+}
 .homepage img {
   opacity: 1;
   display: block;
@@ -164,6 +170,17 @@ body {
 }
 .homepage .product {
   width: 20%;
+}
+@media (max-width: 1024px) {
+  .homepage .product {
+    width: 40%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 532px) {
+  .homepage .product {
+    width: 90%;
+  }
 }
 .homepage .product__photo {
   position: relative;
