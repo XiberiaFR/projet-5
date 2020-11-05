@@ -288,14 +288,28 @@ body {
   justify-content: space-evenly;
   margin-top: 100px;
 }
+@media (max-width: 692px) {
+  .basketpage {
+    flex-wrap: wrap;
+  }
+}
 .basketpage__title {
   text-transform: uppercase;
+}
+@media (max-width: 692px) {
+  .basketpage__title {
+    text-align: center;
+  }
 }
 .basketpage .itemsinbasket {
   display: flex;
   flex-direction: column;
   width: 70%;
-  justify-content: center;
+}
+@media (max-width: 692px) {
+  .basketpage .itemsinbasket {
+    width: 90%;
+  }
 }
 .basketpage .itemsinbasket__details {
   display: flex;
@@ -316,6 +330,13 @@ body {
   width: 20%;
   border-left: purple 2px solid;
   padding-left: 20px;
+}
+@media (max-width: 692px) {
+  .basketpage .basketamount {
+    width: 90%;
+    margin-top: 30px;
+    border-left: none;
+  }
 }
 .basketpage .basketamount__userinformations {
   margin-bottom: 30px;

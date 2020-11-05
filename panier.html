@@ -53,20 +53,20 @@
         <section class="basketamount">
             <div class="basketamount__userinformations">
                 <p class="basketamount__userinformationstitle basketpage__title">Vos informations</p>
-                <input type="text" class="input-text" placeholder="Nom de rue">
-                <input type="number" class="input-text" placeholder="Numéro de rue">
-                <input type="number" class="input-text" placeholder="Code postal">
-                <input type="text" class="input-text" placeholder="Ville">
+                <input type="text" class="input-text" placeholder="Nom de rue" minlength="2" maxlength="30" pattern="[A-Za-z -éàâêèç][^0-9]{2,30}" required>
+                <input type="text" class="input-text" placeholder="Numéro de rue" minlength="1" maxlength="4" pattern="[0-9]{1,4}" required>
+                <input type="text" class="input-text" placeholder="Code postal" minlength="5" maxlength="5" pattern="[0-9]{5}" required>
+                <input type="text" class="input-text" placeholder="Ville" minlength="2" maxlength="30" pattern="[A-Za-z -éàâêèç][^0-9]{2,30}" required>
                 <br><br/>
-                <input type="text" class="input-text" placeholder="Votre nom">
-                <input type="text" class="input-text" placeholder="Votre prénom">
-                <input type="text" class="input-text" placeholder="Numéro de téléphone">
-                <input type="text" class="input-text" placeholder="Adresse mail">
+                <input type="text" class="input-text" placeholder="Votre nom" minlength="2" maxlength="20" pattern="[A-Za-z -éàâêèç][^0-9]{2,20}" required>
+                <input type="text" class="input-text" placeholder="Votre prénom" minlength="2" maxlength="20" pattern="[A-Za-z -éàâêèç][^0-9]{2,20}" required>
+                <input type="tel" class="input-text" placeholder="Numéro de téléphone" maxlength="10" pattern="[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}" required>
+                <input type="email" class="input-text" placeholder="Adresse mail" required>
             </div>
             <div class="basketamount__total">
                 <p class="basketamount__totaltitle basketpage__title">Montant du panier</p>
                 <p class="basketamount__totalprice">Total de votre commande : 200,00€</p>
-                <input type="submit" class="basketamount__totalsubmit" value="Je valide la commande" class="basketamount__totalsubmil">
+                <input type="submit" class="basketamount__totalsubmit" value="Je valide la commande">
 
             </div>
 

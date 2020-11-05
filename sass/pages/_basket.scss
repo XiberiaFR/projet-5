@@ -2,16 +2,24 @@
     display: flex;
     justify-content: space-evenly;
     margin-top: 100px;
-    
+    @media (max-width: 692px) {
+        flex-wrap: wrap;
+    }
+
     &__title {
         text-transform: uppercase;
+        @media (max-width: 692px) {
+            text-align: center;
+        }
     }
     
     .itemsinbasket {
         display: flex;
         flex-direction: column;
         width: 70%;
-        justify-content: center;
+        @media (max-width: 692px) {
+            width: 90%;
+        }
         &__details {
             display: flex;
             align-items: center;
@@ -33,6 +41,11 @@
         width: 20%;
         border-left: purple 2px solid;
         padding-left: 20px;
+        @media (max-width: 692px) {
+            width: 90%;
+            margin-top: 30px;
+            border-left: none;
+        }
         &__userinformations {
             margin-bottom: 30px;
         }
